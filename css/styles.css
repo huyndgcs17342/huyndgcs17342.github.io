@@ -37,37 +37,22 @@ nav {
 
 /* Style specifies padding and margins for unordered list */
 nav ul {
-<<<<<<< HEAD
   padding                         : 0;
   margin-top                      : 0.5em;
   margin-bottom                   : 0.5em;
-=======
-  padding: 0;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
->>>>>>> c9d8f1128524fa45a498022295db0f19f35fddd1
 }
 
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation*/
 nav li {
-<<<<<<< HEAD
   background-color                : #009933;
   border-radius                   : 2em;
   list-style-type                 : none;
   margin                          : 0.3em;
   padding                         : 0.4em;
-=======
-  background-color: #009933;
-  border-radius: 2em;
-  list-style-type: none;
-  margin: 0.3em;
-  padding: 0.4em;
->>>>>>> c9d8f1128524fa45a498022295db0f19f35fddd1
 }
 
 /* Style changes navigation link text color to white and removes the underline */
 nav li a {
-<<<<<<< HEAD
   color                           : #FFFFFF;
   text-decoration                 : none;
 }
@@ -80,10 +65,16 @@ nav li a {
 /* Style hides the desktop class*/
 .desktop {
   display                         : none;
-=======
-  color: #FFFFFF;
-  text-decoration: none;
->>>>>>> c9d8f1128524fa45a498022295db0f19f35fddd1
+}
+
+/* Style hides the tablet class*/
+.tablet {
+  display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+  display: none;
 }
 /* Style for main specifies a block display, text properties,margins, padding, rounded border, and shadow */
 main {
